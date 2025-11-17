@@ -15,6 +15,8 @@ Key Concepts:
 
 Design Pattern: Data Transfer Objects (DTOs)
 These schemas act as DTOs, defining contracts between API and clients.
+
+Schemas.
 """
 
 from enum import Enum
