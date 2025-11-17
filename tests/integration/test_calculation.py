@@ -17,6 +17,7 @@ These tests demonstrate key OOP principles:
 - Inheritance: Subclasses inherit from Calculation
 - Polymorphism: Same interface, different implementations
 - Encapsulation: Each class encapsulates its calculation logic
+Test.
 """
 
 import pytest
