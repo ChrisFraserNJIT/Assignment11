@@ -4,6 +4,7 @@ Pydantic Schemas Package
 
 This package contains all Pydantic models used for request/response validation
 and serialization. Schemas define the structure of data exchanged with clients.
+INIT file.
 """
 
 from app.schemas.calculation import (
