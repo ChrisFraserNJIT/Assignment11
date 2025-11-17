@@ -7,7 +7,7 @@ Each user can have multiple calculations associated with them.
 """
 
 from datetime import datetime
-import uuid
+import uuid #Unique ID
 from sqlalchemy import Column, String, DateTime
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
