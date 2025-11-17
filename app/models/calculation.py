@@ -1,6 +1,6 @@
 # app/models/calculation.py
 from datetime import datetime
-import uuid
+import uuid # Unique ID
 from typing import List
 from sqlalchemy import Column, String, DateTime, ForeignKey, JSON, Float
 from sqlalchemy.dialects.postgresql import UUID
