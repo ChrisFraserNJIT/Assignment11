@@ -15,7 +15,7 @@ Functions:
 
 Usage:
 These functions can be imported and used in other modules or integrated into APIs
-to perform arithmetic operations based on user input.
+to perform arithmetic operations based on user input. Useful.
 """
 
 from typing import Union  # Import Union for type hinting multiple possible types
