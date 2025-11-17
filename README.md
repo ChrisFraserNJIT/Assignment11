@@ -9,6 +9,7 @@ Throughout the next few assignments, features and changes will be made to this p
 This README will be updated every time something has been changed or added to this project.
 
 
+
 Assignment 11 additions:
 
 For this assignment, I added the new Calculation model using SQLAlchemy with the fields id, a, b, type, and result. I also created the Pydantic schemas CalculationCreate and CalculationRead, including validation to prevent invalid inputs such as division by zero or unsupported calculation types. I reviewed the optional factory pattern and added a simple version to keep the calculation logic organized and easy to extend for future modules.
