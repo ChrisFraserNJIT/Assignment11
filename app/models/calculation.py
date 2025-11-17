@@ -1,26 +1,4 @@
 # app/models/calculation.py
-"""
-Calculation Models with Polymorphic Inheritance
-
-This module demonstrates SQLAlchemy's polymorphic inheritance pattern, where
-multiple calculation types (Addition, Subtraction, Multiplication, Division)
-inherit from a base Calculation model. This is a powerful ORM feature that
-allows different types of calculations to be stored in the same table while
-maintaining type-specific behavior.
-
-Polymorphic Inheritance Explained:
-- Single Table Inheritance: All calculation types share one table
-- Discriminator Column: The 'type' column determines which class to use
-- Polymorphic Identity: Each subclass has a unique identifier
-- Factory Pattern: Calculation.create() returns the appropriate subclass
-
-This design pattern allows for:
-1. Querying all calculations together: session.query(Calculation).all()
-2. Automatic type resolution: SQLAlchemy returns the correct subclass
-3. Type-specific behavior: Each subclass implements get_result() differently
-4. Easy extensibility: Add new calculation types by creating new subclasses
-"""
-
 from datetime import datetime
 import uuid
 from typing import List
